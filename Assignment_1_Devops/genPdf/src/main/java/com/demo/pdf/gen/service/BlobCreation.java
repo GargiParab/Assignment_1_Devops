@@ -22,7 +22,6 @@ public class BlobCreation {
         	System.out.println("gen pdf");
             DataInputStream dataInputStream = new DataInputStream(b);
             dataInputStream.readFully(bytes);
-            System.out.println("gen pdf");
             System.out.println(String.format(Arrays.toString(bytes)));
 //            byte [] b1=new byte[];
             for (byte b1 : bytes) {
