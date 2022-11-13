@@ -8,7 +8,7 @@ public class GenPdfApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GenPdfApplication.class, args);
-		System.out.println("gen pdf Updated Development Git commit Email");
+		System.out.println("Force commit1");
 	}
 
 }
